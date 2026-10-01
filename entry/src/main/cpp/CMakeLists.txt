@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(companion_llm LANGUAGES C CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+add_library(companion_llm SHARED companion_llm.cpp qwen_ms_core.cpp)
+target_compile_options(companion_llm PRIVATE -O3)
+target_link_libraries(companion_llm PRIVATE libmindspore_lite_ndk.so libace_napi.z.so)

@@ -1,0 +1,12 @@
+{
+  "graphVersion": "classic-three-v1",
+  "mappingStatus": "engineering_decomposition_not_expert_kc_gold",
+  "answerSource": "data/knowledge_graph/fixed60/adjudicated-kept48.jsonl",
+  "items": [
+    {"task": 0, "itemId": "FUNC-FB-0032", "topic": "quadratic", "title": "二次方程的实根", "skills": ["quadratic_definition", "discriminant", "joint_conditions"], "answerObservationSkill": "joint_conditions"},
+    {"task": 1, "itemId": "FUNC-SC-0193", "topic": "log", "title": "对数与指数", "skills": ["log_exponent"], "answerObservationSkill": "log_exponent"},
+    {"task": 2, "itemId": "FUNC-SA-0139", "topic": "maximum", "title": "区间上的最值", "skills": ["absolute_distance", "piecewise_extrema", "attainable_maximum"], "answerObservationSkill": "attainable_maximum"}
+  ],
+  "relations": [],
+  "note": "P1/P2 has no prerequisite propagation or claimed causal edges. Full-answer observations target the synthesis skill only; they do not prove every subskill."
+}

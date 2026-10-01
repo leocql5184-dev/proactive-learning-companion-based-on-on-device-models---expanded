@@ -1,0 +1,882 @@
+[
+  {
+    "file": ".agents/skills/deveco-cli/agents/openai.yaml",
+    "bytes": 194,
+    "sha256": "ee640dd9cb8018bbaff4f86b601a4f2323e2a9cddfd73669c000fd260bc655e2"
+  },
+  {
+    "file": ".agents/skills/deveco-cli/SKILL.md",
+    "bytes": 3851,
+    "sha256": "915cb16b36ca0888b7f060e1a82df71761ccb6ab8bc36d0f2c6c7258d2f7f808"
+  },
+  {
+    "file": ".agents/skills/dynamic-growth-profile/references/profile-contract.md",
+    "bytes": 11742,
+    "sha256": "b56cf869b4f9fa1b8688940866f451f7a95fa9a69735ff466f0226ddd0b2d789"
+  },
+  {
+    "file": ".agents/skills/dynamic-growth-profile/SKILL.md",
+    "bytes": 6786,
+    "sha256": "7979e583d6cc8669b18b3fc2b5fab83d902982bbbf3bd5a8ee394d41e2d6a1d1"
+  },
+  {
+    "file": ".editorconfig",
+    "bytes": 126,
+    "sha256": "dd01cf9b91586d105ac0d66016c523bf2b5e4095156f0d0ffbb73184a9148675"
+  },
+  {
+    "file": ".env.example",
+    "bytes": 323,
+    "sha256": "3f0e922fb69b22f3265e81e5cd925fdbcb2f963a1a508efe6aa3fcbcdea8a705"
+  },
+  {
+    "file": ".github/ISSUE_TEMPLATE/bug_report.md",
+    "bytes": 376,
+    "sha256": "83d4c6334187683e2dee83dc003a3d136aabc43634280fb6a2e2a4d06ad4d70b"
+  },
+  {
+    "file": ".github/ISSUE_TEMPLATE/feature_request.md",
+    "bytes": 265,
+    "sha256": "5a246dc818a3dffddd1f7de0bdde87b731eb34ab059bfc1190c786f4e5bc40fc"
+  },
+  {
+    "file": ".github/workflows/desktop.yml",
+    "bytes": 1663,
+    "sha256": "ad4d3b4dac2eb145fd19b3230f808a2f8051d7fba0cfc19790f158776465669f"
+  },
+  {
+    "file": ".gitignore",
+    "bytes": 1032,
+    "sha256": "1b5a1a2ddfd167570d9e16bd72d523efe6946d9da1d16642d41ade2bd9cbd086"
+  },
+  {
+    "file": "AGENTS.md",
+    "bytes": 1321,
+    "sha256": "50c9ce5ab991f1c689f9c5580059ff2b02a7b914dea06437a94cb4cd2af49494"
+  },
+  {
+    "file": "AppScope/app.json5",
+    "bytes": 226,
+    "sha256": "f27b5d1c30c46b0df702d3909b57162a876a7aeeb5700775a2212071ef5aae33"
+  },
+  {
+    "file": "AppScope/resources/base/element/string.json",
+    "bytes": 102,
+    "sha256": "2e78f783f01768752c99f967ca0d366f14150ab38f35068cae2cbb2f90ffec87"
+  },
+  {
+    "file": "AppScope/resources/base/media/background.png",
+    "bytes": 91942,
+    "sha256": "497edeafc51af043c73e72ee8c4fbac4663357ef1ba275c0289f31a366b26239"
+  },
+  {
+    "file": "AppScope/resources/base/media/foreground.png",
+    "bytes": 8805,
+    "sha256": "57e549283f255505a649042f36a1d6793c307a69a94c9fa7e27a38af38ddbe8c"
+  },
+  {
+    "file": "AppScope/resources/base/media/layered_image.json",
+    "bytes": 109,
+    "sha256": "3d18dcd7ed9e7d3d2c54c20cb80a44eb4877c661131c68a46e20b6e19d0bb476"
+  },
+  {
+    "file": "assets/guidance/data/feature_schema.json",
+    "bytes": 7621,
+    "sha256": "d9bda344c71939717f38b988de3da98090ce340d9269ca62972899eec1a092b0"
+  },
+  {
+    "file": "assets/guidance/model/action/preprocessing.json",
+    "bytes": 3206,
+    "sha256": "28c3ccb7c8a6eb81819a7c0c9a655f988c97ccfb87987f71052a05d02064d87a"
+  },
+  {
+    "file": "assets/guidance/model/action/weights.json",
+    "bytes": 176424,
+    "sha256": "710c3af1e6341fd94b7e92b18cd627c879fa57e3f05d4e39da8992f8d868ccbc"
+  },
+  {
+    "file": "assets/guidance/README.md",
+    "bytes": 541,
+    "sha256": "58a651adca2a3e5bac5c772d852ea31b1906f708e85be81455d0146b1ec4d693"
+  },
+  {
+    "file": "build-profile.json5",
+    "bytes": 717,
+    "sha256": "3e9af81226b575663d2b0b8ce6899d0814dc11d76f8dbbde6b03d2c7ed9e24c6"
+  },
+  {
+    "file": "code-linter.json5",
+    "bytes": 854,
+    "sha256": "f557c3bcdb40c64c986bffed9628310cc7a79fb7d2642c1c8b8d265fd92e25ad"
+  },
+  {
+    "file": "CONTRIBUTING.md",
+    "bytes": 730,
+    "sha256": "241480a22cc47d5ae1332db1f4ff0918afcd260d04f5dc650c2fb5a174a98e1d"
+  },
+  {
+    "file": "data/cognitive/classic-three.json",
+    "bytes": 979,
+    "sha256": "b3075c1457ec341cdbc2f99245a36e17b3362a6248397bed3346d4a38372a314"
+  },
+  {
+    "file": "data/cognitive/evidence-v1.schema.json",
+    "bytes": 2012,
+    "sha256": "fa0027018c313cea261a70f6e15764cd22d31686e0ab2b4d1097ee997e53f30a"
+  },
+  {
+    "file": "data/knowledge_graph/fixed60/adjudicated-kept48.jsonl",
+    "bytes": 232489,
+    "sha256": "1e34fb3d9bf56639811c7fe30bd8bdaab691646da139d9043ac55e124b64409b"
+  },
+  {
+    "file": "docs/CORE_INTELLIGENCE_PLAN.md",
+    "bytes": 21947,
+    "sha256": "00178036bd25666814d26d6dd3b93b5c04ff172c3080f6f3a918a5f8d9efac7f"
+  },
+  {
+    "file": "docs/INSTALL_DESKTOP.md",
+    "bytes": 2122,
+    "sha256": "f4281038b57dfcb7c382e8ddde27d337e5a66e18263e0fc0f98738a8a1134ea2"
+  },
+  {
+    "file": "docs/PUBLICATION_AUDIT.md",
+    "bytes": 1929,
+    "sha256": "3f092b98a2f8f1aff574f2a99121c4d1e1c8fc55d0e9a5c371fce4384a42fbbf"
+  },
+  {
+    "file": "docs/PUBLISH_GITHUB.md",
+    "bytes": 2572,
+    "sha256": "999f66818847f647e6c1efaf296f46b8d68b266649d5f53c46e0325bd0f38bac"
+  },
+  {
+    "file": "docs/RELEASE_VALIDATION.md",
+    "bytes": 1449,
+    "sha256": "c5235478e8cb4217866b24c516ffd50dd1a6ea9287946ef4f42a0a6bbcf1daba"
+  },
+  {
+    "file": "docs/SUBMISSION_MS.md",
+    "bytes": 2458,
+    "sha256": "5bdca6ccbda2e5cafe5865cbe2c304e3cfb7d5f03ce7a2bbd9868a72114e16ce"
+  },
+  {
+    "file": "entry/build-profile.json5",
+    "bytes": 673,
+    "sha256": "afadb892818bc3130d8eb494bc41110426d0451f51dc7cc7403616789cb69c97"
+  },
+  {
+    "file": "entry/oh-package.json5",
+    "bytes": 247,
+    "sha256": "b634ad3e6179cf046a53fd30f191eaf011fd00d303cf44530afbfad9febaae25"
+  },
+  {
+    "file": "entry/src/main/cpp/CMakeLists.txt",
+    "bytes": 356,
+    "sha256": "5a771daf461678dfa818884d481e7e6bd21e22b81c1c65620f9fb2616f4a3d44"
+  },
+  {
+    "file": "entry/src/main/cpp/companion_llm.cpp",
+    "bytes": 5646,
+    "sha256": "4bb2f5e14524915a2156138965b90cce882827db0a433df8dfba047988d390c2"
+  },
+  {
+    "file": "entry/src/main/cpp/qwen_ms_core.cpp",
+    "bytes": 7802,
+    "sha256": "5efc11c838cb770373c6b20a4135527f0f469fe07865eaade5d77c1b5b6e4e82"
+  },
+  {
+    "file": "entry/src/main/cpp/qwen_ms_core.h",
+    "bytes": 319,
+    "sha256": "16d3c49fd63ef3e3e4898edad537d944c7fcba8ee262bfe24ec27bfe2cf5ffa2"
+  },
+  {
+    "file": "entry/src/main/cpp/types/libcompanion_llm/index.d.ts",
+    "bytes": 169,
+    "sha256": "cb543b9fbe23f06893de5fa991471274b50ddf28f96780c47bba04e546a7513b"
+  },
+  {
+    "file": "entry/src/main/cpp/types/libcompanion_llm/oh-package.json5",
+    "bytes": 85,
+    "sha256": "da2f425f002121ad353ead36e260c0e16952eb1fa0d0616a91853c04fbf25bd5"
+  },
+  {
+    "file": "entry/src/main/ets/components/MonoIcon.ets",
+    "bytes": 1924,
+    "sha256": "690da03a4b72e47f2521a50a66c73dbd44564f989493e4bc59e8a7f3cea1c55a"
+  },
+  {
+    "file": "entry/src/main/ets/entryability/EntryAbility.ets",
+    "bytes": 2332,
+    "sha256": "555bb41df07c1d76efb9656111d8d44695b017a180603b4204a2b5eec6c9d473"
+  },
+  {
+    "file": "entry/src/main/ets/entrybackupability/EntryBackupAbility.ets",
+    "bytes": 1116,
+    "sha256": "d3636f4c9e2af79ab59105a1846427d6967dcd31ca93ec4b0a3190b85e63ce7a"
+  },
+  {
+    "file": "entry/src/main/ets/knowledge/BehaviorEmotionRdb.ets",
+    "bytes": 7329,
+    "sha256": "7c89c3472ff7d33076ef2959004f5aa5ff746057fa0730e4bcf631db1ea9317d"
+  },
+  {
+    "file": "entry/src/main/ets/knowledge/BehaviorInterpreter.ets",
+    "bytes": 4394,
+    "sha256": "e9721b358726744cb7ec828f31d7ae0e84f2fb07b2320fa40e87d74eeb72050a"
+  },
+  {
+    "file": "entry/src/main/ets/knowledge/MathKnowledgeRdb.ets",
+    "bytes": 8121,
+    "sha256": "e25d9a92d64b43d8c7d85d09e5c52bcbeb0de5853411574d40f985c54bc532be"
+  },
+  {
+    "file": "entry/src/main/ets/learning/CompanionGuidance.ets",
+    "bytes": 862,
+    "sha256": "e6c099caddf72596cc8dfcf7babfc5b183bd133e84c200c68c3d0ffb8e2e6317"
+  },
+  {
+    "file": "entry/src/main/ets/learning/EventCollector.ets",
+    "bytes": 12556,
+    "sha256": "1ab1d4413dc3ad480e3ac0abb3256bc921c8b3f5b2eab3e4887b9e6358534843"
+  },
+  {
+    "file": "entry/src/main/ets/learning/FeatureBuilder.ets",
+    "bytes": 4775,
+    "sha256": "2e56578f70b5e0fb13401cae87675ab438f38296a6879fc09538f18578bcc91a"
+  },
+  {
+    "file": "entry/src/main/ets/learning/LearningFileStore.ets",
+    "bytes": 1255,
+    "sha256": "42b9efacb9dcafe915b0385b6207987c8171e220d273991f749c1bcb7bc68e81"
+  },
+  {
+    "file": "entry/src/main/ets/learning/LearningRepository.ets",
+    "bytes": 1439,
+    "sha256": "4a3ec5048c8b3877f5e846319409c84b25b12bb6e2350769bdbf75a8b7546f3a"
+  },
+  {
+    "file": "entry/src/main/ets/learning/LearningTypes.ets",
+    "bytes": 4390,
+    "sha256": "ce761ffb8edf1a9d530bc4eb8c634f29c5e09afb43531e14c47129fabf499dcc"
+  },
+  {
+    "file": "entry/src/main/ets/learning/LocalChatPrompt.ets",
+    "bytes": 1291,
+    "sha256": "e0c9ede6d5bfd43735b463452c163c75a60808596fdb55882933447d9ddf0071"
+  },
+  {
+    "file": "entry/src/main/ets/learning/ModelInputAdapter.ets",
+    "bytes": 1620,
+    "sha256": "3c45cc8b08981c5fcb0dd14d2c759c217267781dae8f65758e1ec7441a9088aa"
+  },
+  {
+    "file": "entry/src/main/ets/learning/PreprocessingData.ets",
+    "bytes": 4582,
+    "sha256": "2d79e8d6e60758719242a4902d5966d2192b1055b98f9634e4d47d323ceadc0f"
+  },
+  {
+    "file": "entry/src/main/ets/learning/ProactivePolicy.ets",
+    "bytes": 1398,
+    "sha256": "1c122cd49429954f53ef6593dede1a8180479da5113bbb1b1e712379746b7ef7"
+  },
+  {
+    "file": "entry/src/main/ets/learning/QwenTokenizer.ets",
+    "bytes": 4234,
+    "sha256": "67c811b540cdcc012adc13e591b91710df09e223f9a79eeb28ad1d9a8606b933"
+  },
+  {
+    "file": "entry/src/main/ets/model/ChatModel.ets",
+    "bytes": 5129,
+    "sha256": "c4591ab596ef078ff3b2098e07f8ecc71afc62fdee4ec519e9c4837d3c8f57fd"
+  },
+  {
+    "file": "entry/src/main/ets/model/ChatStorage.ets",
+    "bytes": 960,
+    "sha256": "0a12f3f5a94c745f60736e4fc57fda884fc7b4f8588be4422b6202da298dec78"
+  },
+  {
+    "file": "entry/src/main/ets/pages/CompanionChat.ets",
+    "bytes": 11259,
+    "sha256": "45c47bb665d962d4a2d84916ac7e9c6e1ef36628b4f7d3011869d80742884766"
+  },
+  {
+    "file": "entry/src/main/ets/pages/Index.ets",
+    "bytes": 5652,
+    "sha256": "489c333bc6224105ad49cc4a1847995109e1769d01b6ab44a21bb5a5399e2083"
+  },
+  {
+    "file": "entry/src/main/ets/pages/LearningWorkspace.ets",
+    "bytes": 41183,
+    "sha256": "9b3d28f8acfd1b2840c8bde565cc03789b8a6536ca5c085e5a0f8b5813222046"
+  },
+  {
+    "file": "entry/src/main/ets/profile/ProfileAgent.ets",
+    "bytes": 7864,
+    "sha256": "f05d1f0bd1f00453754f0e624980801dbf52613e144382c288509542c8b43097"
+  },
+  {
+    "file": "entry/src/main/ets/profile/ProfileEngine.ets",
+    "bytes": 7857,
+    "sha256": "3173c81c9311163db3af3b06572f19ae9351d9dab8ce0fdeda52ddf47a9653fc"
+  },
+  {
+    "file": "entry/src/main/ets/profile/ProfileRdb.ets",
+    "bytes": 11248,
+    "sha256": "1949f295b03da597c4bef330e6983e43ef0f0aca6d19f1b17c33225a7e12dcad"
+  },
+  {
+    "file": "entry/src/main/ets/profile/ProfileTypes.ets",
+    "bytes": 2568,
+    "sha256": "983fbb3b3d66c96c8ef0cf3907a3f139bbc27cfaa9631fa08abd8f82de553d3c"
+  },
+  {
+    "file": "entry/src/main/module.json5",
+    "bytes": 1264,
+    "sha256": "95045053098ced28f3f807767014815b5a26b0203f16de619b0c66eca93c42dc"
+  },
+  {
+    "file": "entry/src/main/resources/base/element/color.json",
+    "bytes": 98,
+    "sha256": "4e028f6e8a847f8a98cfee6d37309def0e7e2e7290041d89e22ba3ac38a802b8"
+  },
+  {
+    "file": "entry/src/main/resources/base/element/float.json",
+    "bytes": 92,
+    "sha256": "8db02f7a08f7b7b73d6eb95b09a6643463d10258b757901e70f255de0a2c83ef"
+  },
+  {
+    "file": "entry/src/main/resources/base/element/string.json",
+    "bytes": 247,
+    "sha256": "81bbf40885bba06ac0693ce6de7a48cff51c0a01ff6c00cdb32ecda53709e3f3"
+  },
+  {
+    "file": "entry/src/main/resources/base/media/background.png",
+    "bytes": 91942,
+    "sha256": "497edeafc51af043c73e72ee8c4fbac4663357ef1ba275c0289f31a366b26239"
+  },
+  {
+    "file": "entry/src/main/resources/base/media/foreground.png",
+    "bytes": 8805,
+    "sha256": "57e549283f255505a649042f36a1d6793c307a69a94c9fa7e27a38af38ddbe8c"
+  },
+  {
+    "file": "entry/src/main/resources/base/media/layered_image.json",
+    "bytes": 109,
+    "sha256": "3d18dcd7ed9e7d3d2c54c20cb80a44eb4877c661131c68a46e20b6e19d0bb476"
+  },
+  {
+    "file": "entry/src/main/resources/base/media/startIcon.png",
+    "bytes": 20093,
+    "sha256": "567c7c0c7a321ca180e010ad880f0f7519f6d351ac2b9665e2ee710e7cfe7778"
+  },
+  {
+    "file": "entry/src/main/resources/base/profile/backup_config.json",
+    "bytes": 34,
+    "sha256": "467a97321341fba6872a6c79a25d89b16eded554c94dae3d4a2faa0d99e59358"
+  },
+  {
+    "file": "entry/src/main/resources/base/profile/main_pages.json",
+    "bytes": 95,
+    "sha256": "6b5cf7f3533a79461cfafa295b43ba292f0fe49cec6b46dfd757f52ef88b7ba6"
+  },
+  {
+    "file": "entry/src/main/resources/dark/element/color.json",
+    "bytes": 98,
+    "sha256": "f26f3f1e47165ae79ebe6f295a3e12593f01e90079d03fc7ff61e47ce0b366a6"
+  },
+  {
+    "file": "entry/src/main/resources/rawfile/dynamic_growth_profile_skill.md",
+    "bytes": 18557,
+    "sha256": "f3ae1609f87bdf3ea92bb53cca64ac2b073e91b76d7c1bd6fabdea72d6c60d57"
+  },
+  {
+    "file": "entry/src/main/resources/rawfile/graph_seed_v1.json",
+    "bytes": 660055,
+    "sha256": "a523097ae6dd68173cd84dc9647480dd35eeb97bda346ad6eec51cc10df56beb"
+  },
+  {
+    "file": "entry/src/main/resources/rawfile/licenses/llama.cpp-LICENSE.txt",
+    "bytes": 1078,
+    "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+  },
+  {
+    "file": "entry/src/main/resources/rawfile/licenses/Qwen3-LICENSE.txt",
+    "bytes": 11544,
+    "sha256": "5de36594c10839788a8c589443a8ef9d8b8d17c65a1b5807206ae037fc36c6bd"
+  },
+  {
+    "file": "entry/src/main/resources/rawfile/profile_skill_v2.json",
+    "bytes": 291,
+    "sha256": "e98a8ecc937815c92e4afad973d2bc73bfcc643c36b8f03f1dce421154f5f9ed"
+  },
+  {
+    "file": "hvigor/hvigor-config.json5",
+    "bytes": 1459,
+    "sha256": "e9c6675d4c479e3ac3cd3d36060892e93d53acb2252e3936ce145024bcd04ac2"
+  },
+  {
+    "file": "hvigorfile.ts",
+    "bytes": 305,
+    "sha256": "b8882fb4b6da475eeeeb64875e8f80a1bdfe4ea4b9d943396e91be45478a4758"
+  },
+  {
+    "file": "LICENSE",
+    "bytes": 1082,
+    "sha256": "7cc7f0776706ba61935b3f2d04a4581701abf872cc7bd2ebe65c9e7b8a3e6e8d"
+  },
+  {
+    "file": "oh-package-lock.json5",
+    "bytes": 1002,
+    "sha256": "738d44a280f1bec5bbcac8cf183d8d02c87c856d45768a02dadd2feba404beef"
+  },
+  {
+    "file": "oh-package.json5",
+    "bytes": 201,
+    "sha256": "bc1d56f0fb813eba28652af4f1e960bd6ac1da54aaed2325dfa82f142ac10686"
+  },
+  {
+    "file": "package.json",
+    "bytes": 513,
+    "sha256": "a1ac8b826879f47c5a61ba4c263a8e3f0042465e4a474050372044cf7fd66751"
+  },
+  {
+    "file": "PROJECT_BRIEF.md",
+    "bytes": 26872,
+    "sha256": "7221dc335f3c64eba1a2e19cf6ce5bc2a437c6635b3f1f38376e917eaf84f12d"
+  },
+  {
+    "file": "README-HCL.md",
+    "bytes": 1924,
+    "sha256": "a4cd2b6f3233149d5b4ad583b4d82940aa381b9ce0590981032107e5727887de"
+  },
+  {
+    "file": "README.md",
+    "bytes": 11426,
+    "sha256": "46183c2626e8fe5dac4f7d353f8fc49fe99cd6ac2a4ae0d43792d918121351f3"
+  },
+  {
+    "file": "SECURITY.md",
+    "bytes": 1405,
+    "sha256": "2955a75b787d6f585f9ce37b74f8accc2cbb293d63534cf432995d7d93934cfc"
+  },
+  {
+    "file": "tests/active-intelligence.test.cjs",
+    "bytes": 5007,
+    "sha256": "104fc05dcdd26597bf9ef18092e0b40fd02b50d614cd9d9a91c304619895ad25"
+  },
+  {
+    "file": "tests/active-intervention-ui.test.cjs",
+    "bytes": 11751,
+    "sha256": "bb2d4034967519ac20047c8b89761749f0f9a804b6983f19e789393f45d03439"
+  },
+  {
+    "file": "tests/behavior-graph.test.cjs",
+    "bytes": 12005,
+    "sha256": "d7d751b28d93e633312d116dceaac7ee548847b8205ae0a7edeb9c7a5f4ef85a"
+  },
+  {
+    "file": "tests/catalog-chat-smoke.cjs",
+    "bytes": 1944,
+    "sha256": "af3021fbb6b603e54096b7099406ef332d563272cd07026e39cfddcf63cbb27e"
+  },
+  {
+    "file": "tests/chat-model.test.cjs",
+    "bytes": 5004,
+    "sha256": "6caf33a9665e47d374ebc319626e0b4a4df5dd3ac68b37741f77c26cbbc92168"
+  },
+  {
+    "file": "tests/cognitive-state.test.cjs",
+    "bytes": 7278,
+    "sha256": "5927a48d9e8a9586dbf4445733b636e32ead276df03527777ed4ddb2b8fabaf8"
+  },
+  {
+    "file": "tests/cognitive-ui.test.cjs",
+    "bytes": 8721,
+    "sha256": "77d219883f532539d8707582c0e4d2a94276ec291cb5d2c264aa4930ead2fa8c"
+  },
+  {
+    "file": "tests/desktop-inference-smoke.cjs",
+    "bytes": 3689,
+    "sha256": "8fea0b33d4a60f5d9a6f2061fcb5e626c503f3fb70a9a93f57badf3a688b830a"
+  },
+  {
+    "file": "tests/desktop-local.test.cjs",
+    "bytes": 1930,
+    "sha256": "92eaf750681c2048551e8891aa57a16b121be2765cd0f69800de83e58215d99d"
+  },
+  {
+    "file": "tests/desktop-opening.test.cjs",
+    "bytes": 4377,
+    "sha256": "7e71768d193b8667f7c3aff99c1408946c9c74d0530613d34288c7ee9ede6e23"
+  },
+  {
+    "file": "tests/desktop-records.test.cjs",
+    "bytes": 8499,
+    "sha256": "b7a7d3cbcf1082d392110e1e7d9570c31666bda983f585efc281121d29075c3c"
+  },
+  {
+    "file": "tests/desktop-security.test.cjs",
+    "bytes": 2125,
+    "sha256": "e8b15d811f2cb2900721392b8428489ed5d1ac400c4a0849c329ee2f89f5362b"
+  },
+  {
+    "file": "tests/desktop-ui.test.cjs",
+    "bytes": 9567,
+    "sha256": "a6f40c22793f5cf6c3f9b7656a3eb0b54920a9450b4b40ef10b3360b656cb013"
+  },
+  {
+    "file": "tests/dual-backend-smoke.cjs",
+    "bytes": 2152,
+    "sha256": "d8e200b4aa2df59f40d5e3ab62fbe82f46c681d6441d064fc2c01908800923c8"
+  },
+  {
+    "file": "tests/intervention-estimator.test.cjs",
+    "bytes": 3101,
+    "sha256": "60537a429f20c743217c2c5c3726bda49b14ad6fb569c720aec123e72a3179be"
+  },
+  {
+    "file": "tests/learning-collection.test.cjs",
+    "bytes": 16458,
+    "sha256": "9778486db07d97e3fbbdfe16b6e15306562e131ba65cdf2f16cea4f552619b03"
+  },
+  {
+    "file": "tests/learning-flow-smoke.cjs",
+    "bytes": 2135,
+    "sha256": "1a14f41e9adb1a35ebfbb3eeb6c5f5a79ef421d43b995fc362d244fd22fdb009"
+  },
+  {
+    "file": "tests/learning-flow.test.cjs",
+    "bytes": 11497,
+    "sha256": "5716ead0d2092bc0204ef6260f20961afb757b2d03a13c033b2b629db480c2bc"
+  },
+  {
+    "file": "tests/local-chat.test.cjs",
+    "bytes": 1775,
+    "sha256": "063860b94eb231d2f1cf15fb5363ad0652978e4ca1aec22f78754bb8eb9f2e9d"
+  },
+  {
+    "file": "tests/math-rdb-seed.test.cjs",
+    "bytes": 1108,
+    "sha256": "8a2feb72cc4713a940870598afcb663ae6be58e3b79e0b2199d345386b683609"
+  },
+  {
+    "file": "tests/mindspore-backend-smoke.cjs",
+    "bytes": 5220,
+    "sha256": "c006bf63e4bfcd4707a84af7c7e297dcf8269808122e9cc247d1b31c73d4c330"
+  },
+  {
+    "file": "tests/model-baseline-smoke.cjs",
+    "bytes": 1837,
+    "sha256": "60d0ccc51a94b1e34a8c204c7cb40bfff420ab298c23014af332e5c42e4832cc"
+  },
+  {
+    "file": "tests/model-baseline.test.cjs",
+    "bytes": 2499,
+    "sha256": "359beaae9170e797cc767f4eb8608cb5decc6ccd53c2256b1cbb97e26e422997"
+  },
+  {
+    "file": "tests/profile-agent.test.cjs",
+    "bytes": 11800,
+    "sha256": "8e1292aea300542087fa211da2bb27b1cfb4be44eaac0ed11a9b94352ce472dc"
+  },
+  {
+    "file": "tests/question-response-smoke.cjs",
+    "bytes": 2007,
+    "sha256": "528b8aef5fc71782d9daeb9f20020d5172088300703759211d612abf806935ad"
+  },
+  {
+    "file": "tests/qwen-tokenizer.test.cjs",
+    "bytes": 1866,
+    "sha256": "e64309d78915a8d87bd2ff6abf15042c0292f70dac81422551411a882677a360"
+  },
+  {
+    "file": "tests/strategy-study.test.cjs",
+    "bytes": 4159,
+    "sha256": "57ec1353ee24e8ec0b3e2a467ef380ace58443610fa70ce6d14959d773a9d491"
+  },
+  {
+    "file": "tests/tutoring-guardrails.test.cjs",
+    "bytes": 19137,
+    "sha256": "5faf0897a3e55fc01d19731f94edae2ab612852a742a048614a2d616bf56e44e"
+  },
+  {
+    "file": "tests/verify_learning_preprocessing.py",
+    "bytes": 3000,
+    "sha256": "99575b4753bd13889b62fd44aba7668bb24019d37c515c8f0564f318a372b7ea"
+  },
+  {
+    "file": "THIRD_PARTY_NOTICES.md",
+    "bytes": 1469,
+    "sha256": "7a2f9e658f43d86fc56564fb028f0307327fb91c46fa551e6d8255e16607b2fe"
+  },
+  {
+    "file": "tools/cognitive/fit-evaluate.cjs",
+    "bytes": 10356,
+    "sha256": "70feab9c8d347d9de3593116c956319fef331f2c1703a5a577f94e27bec97583"
+  },
+  {
+    "file": "tools/local-llm/desktop/baseline.cjs",
+    "bytes": 5258,
+    "sha256": "73bf6245cbbd210e8de07ae83f91e9e119a3f7e85778cf4e2a7d17363d4e2b01"
+  },
+  {
+    "file": "tools/local-llm/desktop/core/cognitive-state.cjs",
+    "bytes": 137,
+    "sha256": "4fb685b7ba3df7ddddc6155b5f712f6acb63c0b9800a004ee56b63a4fc6aeb1c"
+  },
+  {
+    "file": "tools/local-llm/desktop/core/evidence.cjs",
+    "bytes": 613,
+    "sha256": "0730e75feb16eac0d4c4f5a1455ac8d34a793956347ab8a1cd2eae2e9aa17d66"
+  },
+  {
+    "file": "tools/local-llm/desktop/core/intervention-estimator.cjs",
+    "bytes": 76,
+    "sha256": "e9788738f8d2876f537d088d476586aa8a9b259dc6e4f683f4f1f1098350292d"
+  },
+  {
+    "file": "tools/local-llm/desktop/core/intervention-planner.cjs",
+    "bytes": 60,
+    "sha256": "0a385ca615a789441a2a93cc84de399f7a67db03d0bd52de690d54fcc3b65e94"
+  },
+  {
+    "file": "tools/local-llm/desktop/core/neural-evidence.cjs",
+    "bytes": 1853,
+    "sha256": "36829e2c0bb606d12b8aba832322303599c7102ba57c7a4314f2114306d40458"
+  },
+  {
+    "file": "tools/local-llm/desktop/core/probabilistic-reasoner.cjs",
+    "bytes": 62,
+    "sha256": "76132c324d927167ce7ea403ce7468be45580cc63f76ed953ebe2323b7b391cf"
+  },
+  {
+    "file": "tools/local-llm/desktop/core/symbolic-reasoner.cjs",
+    "bytes": 57,
+    "sha256": "485a92cfab6e49af9ecb4ad3a69eae87f7b84232710023f6117e98be3cfb927d"
+  },
+  {
+    "file": "tools/local-llm/desktop/core/trained-guidance.cjs",
+    "bytes": 2187,
+    "sha256": "70ef1598bae1a5d0f314a1970ac360a5c89fd0def90c7519fd683a5cb70eab2f"
+  },
+  {
+    "file": "tools/local-llm/desktop/guidance.cjs",
+    "bytes": 4190,
+    "sha256": "4213f71aad7dabba5a067e4d38ac8877d2019efda3cf729c856dec8cd2b44c46"
+  },
+  {
+    "file": "tools/local-llm/desktop/prompt.cjs",
+    "bytes": 1001,
+    "sha256": "0df106395694ca9141e83013437afc916d0fa896823eb7c1ba32ae3c569aa472"
+  },
+  {
+    "file": "tools/local-llm/desktop/server.cjs",
+    "bytes": 16698,
+    "sha256": "2a40e4f10294a4808dae035793c09fc6e19b766917acfa6a6a654128758746bd"
+  },
+  {
+    "file": "tools/local-llm/desktop/web/active-intervention.js",
+    "bytes": 26617,
+    "sha256": "5a9ae424706ff2e49b1d4051d77abcf613cb7e92278542369c7f580339ded0d1"
+  },
+  {
+    "file": "tools/local-llm/desktop/web/app.js",
+    "bytes": 107753,
+    "sha256": "c46256b500154a2983801a34e3f45a8751bf2a824e8d986782efb53d327dea84"
+  },
+  {
+    "file": "tools/local-llm/desktop/web/causal-ui.js",
+    "bytes": 8028,
+    "sha256": "568953d1051e07915f05bd6e1ce4a9174eab62dbc280ccb058a75187c4689051"
+  },
+  {
+    "file": "tools/local-llm/desktop/web/cognitive-state.js",
+    "bytes": 9896,
+    "sha256": "1536442fbe86a317db1c53c39f31e21176b9f9b5f47f7e0b38f587ddb89b6074"
+  },
+  {
+    "file": "tools/local-llm/desktop/web/guidance-evidence.js",
+    "bytes": 6759,
+    "sha256": "7b3dd1d3186b1cdd68792c823d56fa32b7c56e0762672df67f7d15cd46be9e1b"
+  },
+  {
+    "file": "tools/local-llm/desktop/web/index.html",
+    "bytes": 49311,
+    "sha256": "73d696d61287a06811bea63009aaf46162b5c6ecf16d6214beb58c3c1246a254"
+  },
+  {
+    "file": "tools/local-llm/desktop/web/intervention-estimator.js",
+    "bytes": 10440,
+    "sha256": "e056a43c66fc69677946d0fb3a06a0d9ec1a68bdb38c1f8fdb7c3f3a10e381a9"
+  },
+  {
+    "file": "tools/local-llm/desktop/web/intervention-planner.js",
+    "bytes": 7910,
+    "sha256": "6fb6b18fb1db61ce8133d710170fc48612be4596d1b4c49bd7d710e95668466c"
+  },
+  {
+    "file": "tools/local-llm/desktop/web/learning-flow.js",
+    "bytes": 56860,
+    "sha256": "e10432a83461bc2984811063b27740b5ce1c0e4175e2a3710ccdc4fcf12a8390"
+  },
+  {
+    "file": "tools/local-llm/desktop/web/policy.js",
+    "bytes": 572,
+    "sha256": "ed7c43c88bc923baf9c1fdf68557db23ddb3c8dfcdac853dd451a8a4de484fb5"
+  },
+  {
+    "file": "tools/local-llm/desktop/web/probabilistic-reasoner.js",
+    "bytes": 1900,
+    "sha256": "bd2b8bcb9bf66ef085b84f0aebb4dcb4cfd2b7b17e842a33d1a3a52e1cadbee2"
+  },
+  {
+    "file": "tools/local-llm/desktop/web/strategy-study.js",
+    "bytes": 3250,
+    "sha256": "a84bc1d4ab07cf2af4dc2d378f5b79d17e851509351f076c686e55be3badb640"
+  },
+  {
+    "file": "tools/local-llm/desktop/web/symbolic-reasoner.js",
+    "bytes": 8571,
+    "sha256": "c8580989e7076167daf57bab91eb750147d8b55909eba9db815a8330a031be8b"
+  },
+  {
+    "file": "tools/local-llm/desktop/web/tutoring-policy.js",
+    "bytes": 3487,
+    "sha256": "317a03697c27a5b647bd08ad5ce3f48e9040f4d7cb88ef6c7a8a3a95cb8e6f0d"
+  },
+  {
+    "file": "tools/local-llm/Prepare-Desktop.ps1",
+    "bytes": 2123,
+    "sha256": "14660b47c9f57142118016e971d2a14538c320a0cfdf0fc85e4d15363aa3974d"
+  },
+  {
+    "file": "tools/local-llm/runtime-manifest.json",
+    "bytes": 576,
+    "sha256": "e64793f02b2876c405cb4bb66f9e615bf4e75b090b859f04da6fbf49f8f02641"
+  },
+  {
+    "file": "tools/local-llm/skills/tutoring-guardrails/SKILL.md",
+    "bytes": 5121,
+    "sha256": "bc441fcd57599daa2e12f925d2629ba7ba07411edf3bf4d02a34fe5b320299de"
+  },
+  {
+    "file": "tools/local-llm/Start-Desktop.ps1",
+    "bytes": 2892,
+    "sha256": "29f60127ac590be09fa98948ded317dda6506afd22953011579dd64fa5a6a29d"
+  },
+  {
+    "file": "tools/local-llm/Stop-Desktop.ps1",
+    "bytes": 462,
+    "sha256": "69c66d70964f8cd0ece6a1b5badc8c20a6726e74d089b1fc969c4d0a2562a7d4"
+  },
+  {
+    "file": "tools/model-conversion/Convert-Qwen.ps1",
+    "bytes": 1752,
+    "sha256": "d8c87124818dc4aef8173bc1a1e4663883bf390e4d5c535d66adc9115dab07fe"
+  },
+  {
+    "file": "tools/model-conversion/Convert-QwenCached.ps1",
+    "bytes": 1838,
+    "sha256": "b6f1496f4fe96635b0d3a28e19a5506091ed4a001bed9933a4103a018adfeee9"
+  },
+  {
+    "file": "tools/model-conversion/export_qwen.py",
+    "bytes": 7286,
+    "sha256": "320d238cecb80dbff71616af51e28f7cf0564d0ddadc50c444ffd53e923971ca"
+  },
+  {
+    "file": "tools/model-conversion/package_cached_qwen.py",
+    "bytes": 5118,
+    "sha256": "b99090f4325a39f2d0038293841662e4267be654d3ae45929ad4b965a0733637"
+  },
+  {
+    "file": "tools/model-conversion/package_qwen.py",
+    "bytes": 2116,
+    "sha256": "2897855a17ea375ff60f706e7808e4e6f91c20f39925b215711b9a6c9a2155d7"
+  },
+  {
+    "file": "tools/model-conversion/probe_lite.py",
+    "bytes": 1015,
+    "sha256": "43cb9b3c526608c8b9eff7cdf23f541e76878cdcd2bd27ef7cf8a222c1e6325b"
+  },
+  {
+    "file": "tools/model-conversion/qwen_runtime.py",
+    "bytes": 5461,
+    "sha256": "6312daec270d67bcad1f7847499376614141bc3f00c8a7b3c8b50edf16daccf0"
+  },
+  {
+    "file": "tools/model-conversion/qwen_tokenizer.py",
+    "bytes": 3522,
+    "sha256": "4db3da338432b64573c9f4b05676ef334c9ce2333f401c551de7f23a596b5152"
+  },
+  {
+    "file": "tools/model-conversion/restore_ms.py",
+    "bytes": 1639,
+    "sha256": "2e87eff8e4fe0e0761d72ced1a4ac144384f28d012103ae6e8fc9cd4d9fe8dd2"
+  },
+  {
+    "file": "tools/model-conversion/run_cached_qwen.py",
+    "bytes": 1790,
+    "sha256": "9979d7237cc3aab7a3076ff2b8e3401f26cc7e58491ebaab4bef143b96d30ea3"
+  },
+  {
+    "file": "tools/model-conversion/run_qwen_ms.py",
+    "bytes": 2495,
+    "sha256": "67fd506d45123d1693c2eb557f2310f95295e54940da390b0860feb37b5cfd32"
+  },
+  {
+    "file": "tools/model-conversion/serve_qwen_ms.py",
+    "bytes": 6651,
+    "sha256": "ef4a8d991716d3f39df7a5049a88fa31c99dfa8a31226e9506611fd7e0cad8c2"
+  },
+  {
+    "file": "tools/model-conversion/verify_cached_qwen.py",
+    "bytes": 5498,
+    "sha256": "d94aa40f3cb302b32c0fbbde1d04707828f2a716c1d59a1d989b8542f3ffb1f8"
+  },
+  {
+    "file": "tools/model-conversion/verify_delivery.py",
+    "bytes": 2466,
+    "sha256": "56934f16cfa90e38d001a4b1cefb6e2be137f0df0783638136c569cdca98bbab"
+  },
+  {
+    "file": "tools/model-conversion/verify_qwen.py",
+    "bytes": 7904,
+    "sha256": "9d157f94ea43097bbba3d8ee5acf2928bc1e68fcc514269ba24795878f533279"
+  },
+  {
+    "file": "tools/release/Package-Public.ps1",
+    "bytes": 1888,
+    "sha256": "ea85b04ce2bcf286006db243e6d48c649e771142fef12733782f035e15dd5e7e"
+  },
+  {
+    "file": "tools/release/stage-public.cjs",
+    "bytes": 7134,
+    "sha256": "3639265601ad1d1bc25eb2dbbb6210801cc301ee2363e53cf1c63831503636c5"
+  },
+  {
+    "file": "tools/release/test-desktop.cjs",
+    "bytes": 662,
+    "sha256": "6d7bfd4e0da1af7df0499b878d5a9b824972ec503d711551cf74d179b2088c58"
+  },
+  {
+    "file": "关闭学伴.cmd",
+    "bytes": 106,
+    "sha256": "f1f4d6fe58c39c3f38cc6e27b1d620fcbdb4143e4a25c780ff439b49773338f1"
+  },
+  {
+    "file": "准备模型.cmd",
+    "bytes": 131,
+    "sha256": "e682f262f86a23f9e8ce464ceb40fde3360b5ccbf850fb32f3a01e59dc992c3e"
+  },
+  {
+    "file": "打开学伴.cmd",
+    "bytes": 143,
+    "sha256": "0b3402ab3fa4ee3ee58820a64e4d6ae775b3453c8a9d0db49eaa414cdf247a1b"
+  },
+  {
+    "file": "打开学伴MindSpore.cmd",
+    "bytes": 148,
+    "sha256": "a6c31d06e7d3041a72e3e584fc9a528d055ba8677a454f6dda001fb55d4309e0"
+  }
+]

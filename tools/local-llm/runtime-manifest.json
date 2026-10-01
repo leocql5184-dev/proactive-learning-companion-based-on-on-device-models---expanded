@@ -1,0 +1,13 @@
+{
+  "engine": {
+    "version": "b11146",
+    "directory": "tools/local-llm/windows-cpu",
+    "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11146/llama-b11146-bin-win-cpu-x64.zip",
+    "sha256": "14cf1303ca9ac3abd94816850532f9f9a69ac66fbaca3776fc6f9061c2fac1d1"
+  },
+  "model": {
+    "path": "models/qwen3/Qwen3-0.6B-Q8_0.gguf",
+    "url": "https://huggingface.co/Qwen/Qwen3-0.6B-GGUF/resolve/23749fefcc72300e3a2ad315e1317431b06b590a/Qwen3-0.6B-Q8_0.gguf?download=true",
+    "sha256": "9465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031"
+  }
+}

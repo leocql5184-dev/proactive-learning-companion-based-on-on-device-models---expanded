@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cognitive evidence v1",
+  "type": "object",
+  "required": ["schemaVersion", "id", "itemId", "studentId", "sessionId", "attemptId", "time", "origin", "topic", "skillId", "kind", "outcome", "assistance", "conflict", "source", "consent"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "id": {"type": "string", "minLength": 1},
+    "itemId": {"type": "string", "minLength": 1},
+    "studentId": {"type": "string", "minLength": 1},
+    "sessionId": {"type": "string", "minLength": 1},
+    "attemptId": {"type": "string", "minLength": 1},
+    "time": {"type": "number", "description": "Unix milliseconds"},
+    "origin": {"enum": ["real", "synthetic", "legacy"]},
+    "topic": {"enum": ["quadratic", "log", "maximum"]},
+    "skillId": {"enum": ["quadratic_definition", "discriminant", "joint_conditions", "log_exponent", "absolute_distance", "piecewise_extrema", "attainable_maximum"]},
+    "kind": {"enum": ["answer", "explanation"]},
+    "outcome": {"enum": ["correct", "incorrect", "unknown"]},
+    "assistance": {"enum": ["independent", "assisted", "unknown"]},
+    "conflict": {"enum": ["none", "candidate", "verified"]},
+    "source": {"type": "string"},
+    "consent": {"type": "boolean"},
+    "conflictSource": {"type": "string"}
+  },
+  "allOf": [
+    {"if": {"properties": {"topic": {"const": "quadratic"}}}, "then": {"properties": {"skillId": {"enum": ["quadratic_definition", "discriminant", "joint_conditions"]}}}},
+    {"if": {"properties": {"topic": {"const": "log"}}}, "then": {"properties": {"skillId": {"const": "log_exponent"}}}},
+    {"if": {"properties": {"topic": {"const": "maximum"}}}, "then": {"properties": {"skillId": {"enum": ["absolute_distance", "piecewise_extrema", "attainable_maximum"]}}}},
+    {"if": {"properties": {"conflict": {"const": "verified"}}}, "then": {"required": ["conflictSource"], "properties": {"conflictSource": {"enum": ["teacher", "symbolic_verified", "synthetic_truth"]}}}}
+  ]
+}

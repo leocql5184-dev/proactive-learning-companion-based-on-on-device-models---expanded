@@ -1,0 +1,10 @@
+{
+  "id": "dynamic-growth-profile",
+  "version": 2,
+  "mode": "local_workflow",
+  "steps": ["authorize", "read_evidence", "read_graphs", "derive_three_dimensions", "validate", "commit"],
+  "currentTtlMs": 1200000,
+  "windowMs": 2592000000,
+  "preferenceSessions": 3,
+  "preferenceDays": 2
+}

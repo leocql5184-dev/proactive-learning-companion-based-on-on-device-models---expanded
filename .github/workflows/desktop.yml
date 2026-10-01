@@ -1,0 +1,51 @@
+name: Desktop GGUF
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      verify_model:
+        description: Download pinned GGUF and verify real Windows inference
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: desktop-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  desktop:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+      - name: Prepare pinned GGUF runtime
+        if: github.event_name == 'workflow_dispatch' && inputs.verify_model
+        shell: pwsh
+        run: ./tools/local-llm/Prepare-Desktop.ps1
+      - name: Real model and HTTP security checks
+        if: github.event_name == 'workflow_dispatch' && inputs.verify_model
+        shell: pwsh
+        run: |
+          ./tools/local-llm/Start-Desktop.ps1 -NoBrowser
+          try {
+            npm run test:smoke
+            if ($LASTEXITCODE -ne 0) { throw 'Inference smoke failed' }
+            npm run test:security
+            if ($LASTEXITCODE -ne 0) { throw 'Security checks failed' }
+          } finally { ./tools/local-llm/Stop-Desktop.ps1 }
+      - name: Build public source ZIP
+        shell: pwsh
+        run: ./tools/release/Package-Public.ps1
+      - uses: actions/upload-artifact@v4
+        with:
+          name: public-source
+          path: |
+            outputs/public-release/zhiban-source.zip
+            outputs/public-release/zhiban-source.zip.sha256
+            outputs/public-release/source-audit.json
+            outputs/public-release/source-manifest.json

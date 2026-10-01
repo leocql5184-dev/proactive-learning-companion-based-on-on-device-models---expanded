@@ -1,0 +1,15 @@
+{
+  "name": "zhiban-offline-companion",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local offline learning companion, Windows desktop first",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node tools/local-llm/desktop/server.cjs",
+    "test": "node tools/release/test-desktop.cjs",
+    "test:smoke": "node tests/dual-backend-smoke.cjs",
+    "test:security": "node tests/desktop-security.test.cjs",
+    "release:stage": "node tools/release/stage-public.cjs"
+  }
+}

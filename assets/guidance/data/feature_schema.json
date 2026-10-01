@@ -1,0 +1,284 @@
+{
+  "version": "decision-features-v1",
+  "feature_order": [
+    "answer_count",
+    "incorrect_count",
+    "correct_count",
+    "hint_observed_count",
+    "consecutive_incorrect",
+    "last_action_code",
+    "first_action_offset_ms",
+    "decision_offset_ms",
+    "observed_span_ms",
+    "last_event_gap_ms",
+    "median_answer_gap_ms",
+    "since_last_hint_ms",
+    "incorrect_ratio",
+    "help_request_pending",
+    "requested_hint_depth",
+    "explicit_break_requested",
+    "self_report_load_high",
+    "self_report_prerequisite_gap",
+    "requested_prerequisite_review",
+    "requested_task_split",
+    "requested_branch_reduction",
+    "visible_method_count",
+    "task_subpart_count",
+    "help_declined_recently",
+    "task_difficulty",
+    "task_progress",
+    "related_mastery",
+    "prerequisite_mastery",
+    "active_time_ms"
+  ],
+  "numeric_dimension": 29,
+  "mask_dimension": 29,
+  "normalization": "NOT_FITTED",
+  "missing_value": "null; observed mask=0. Never replace unknown by a measured zero in raw data.",
+  "fields": [
+    {
+      "name": "answer_count",
+      "description": "截至决策的提交次数",
+      "unit": "次",
+      "min": 0,
+      "max": null,
+      "nullable": true
+    },
+    {
+      "name": "incorrect_count",
+      "description": "截至决策的错误提交次数",
+      "unit": "次",
+      "min": 0,
+      "max": null,
+      "nullable": true
+    },
+    {
+      "name": "correct_count",
+      "description": "截至决策的正确提交次数",
+      "unit": "次",
+      "min": 0,
+      "max": null,
+      "nullable": true
+    },
+    {
+      "name": "hint_observed_count",
+      "description": "截至决策观察到的提示事件数；不等同于未处理的求助",
+      "unit": "次",
+      "min": 0,
+      "max": null,
+      "nullable": true
+    },
+    {
+      "name": "consecutive_incorrect",
+      "description": "末尾连续错误提交数；提示打断连续性",
+      "unit": "次",
+      "min": 0,
+      "max": null,
+      "nullable": true
+    },
+    {
+      "name": "last_action_code",
+      "description": "0无操作/1错误/2正确/3已观察到提示/4求助/5自报/6拒绝帮助",
+      "unit": "枚举",
+      "min": 0,
+      "max": 6,
+      "nullable": true
+    },
+    {
+      "name": "first_action_offset_ms",
+      "description": "本题开始到首次已记录操作的墙钟时间",
+      "unit": "毫秒",
+      "min": 0,
+      "max": null,
+      "nullable": true
+    },
+    {
+      "name": "decision_offset_ms",
+      "description": "本题开始到当前决策的墙钟时间；不是有效学习时间",
+      "unit": "毫秒",
+      "min": 0,
+      "max": null,
+      "nullable": true
+    },
+    {
+      "name": "observed_span_ms",
+      "description": "决策与首次已记录操作之间的时间",
+      "unit": "毫秒",
+      "min": 0,
+      "max": null,
+      "nullable": true
+    },
+    {
+      "name": "last_event_gap_ms",
+      "description": "最近两条已记录事件的间隔",
+      "unit": "毫秒",
+      "min": 0,
+      "max": null,
+      "nullable": true
+    },
+    {
+      "name": "median_answer_gap_ms",
+      "description": "截至决策相邻提交时间间隔的中位数",
+      "unit": "毫秒",
+      "min": 0,
+      "max": null,
+      "nullable": true
+    },
+    {
+      "name": "since_last_hint_ms",
+      "description": "距最近提示事件的时间",
+      "unit": "毫秒",
+      "min": 0,
+      "max": null,
+      "nullable": true
+    },
+    {
+      "name": "incorrect_ratio",
+      "description": "错误数/提交数；无提交时未知",
+      "unit": "比例",
+      "min": 0,
+      "max": 1,
+      "nullable": true
+    },
+    {
+      "name": "help_request_pending",
+      "description": "是否明确有尚未处理的主动求助；旧hint事件无法判定",
+      "unit": "布尔",
+      "min": 0,
+      "max": 1,
+      "nullable": true
+    },
+    {
+      "name": "requested_hint_depth",
+      "description": "用户明确要求的提示深度，1轻/2深；未说明为未知",
+      "unit": "层级",
+      "min": 1,
+      "max": 2,
+      "nullable": true
+    },
+    {
+      "name": "explicit_break_requested",
+      "description": "用户明确请求休息",
+      "unit": "布尔",
+      "min": 0,
+      "max": 1,
+      "nullable": true
+    },
+    {
+      "name": "self_report_load_high",
+      "description": "用户明确自报当前负担大；不从停顿推算",
+      "unit": "布尔",
+      "min": 0,
+      "max": 1,
+      "nullable": true
+    },
+    {
+      "name": "self_report_prerequisite_gap",
+      "description": "用户明确说不理解某个基础概念",
+      "unit": "布尔",
+      "min": 0,
+      "max": 1,
+      "nullable": true
+    },
+    {
+      "name": "requested_prerequisite_review",
+      "description": "用户明确要求回顾基础概念",
+      "unit": "布尔",
+      "min": 0,
+      "max": 1,
+      "nullable": true
+    },
+    {
+      "name": "requested_task_split",
+      "description": "用户明确要求将任务拆成步骤",
+      "unit": "布尔",
+      "min": 0,
+      "max": 1,
+      "nullable": true
+    },
+    {
+      "name": "requested_branch_reduction",
+      "description": "用户明确要求减少同时呈现的路线",
+      "unit": "布尔",
+      "min": 0,
+      "max": 1,
+      "nullable": true
+    },
+    {
+      "name": "visible_method_count",
+      "description": "当时界面实际呈现的解题方法数",
+      "unit": "个",
+      "min": 0,
+      "max": null,
+      "nullable": true
+    },
+    {
+      "name": "task_subpart_count",
+      "description": "题目明确列出的子问题数；无法确定则未知",
+      "unit": "个",
+      "min": 1,
+      "max": null,
+      "nullable": true
+    },
+    {
+      "name": "help_declined_recently",
+      "description": "当前上下文中明确拒绝主动帮助",
+      "unit": "布尔",
+      "min": 0,
+      "max": 1,
+      "nullable": true
+    },
+    {
+      "name": "task_difficulty",
+      "description": "仅A/B给出相同1–5难度时保留一致意见，不代表C裁决",
+      "unit": "级",
+      "min": 1,
+      "max": 5,
+      "nullable": true
+    },
+    {
+      "name": "task_progress",
+      "description": "经实际步骤记录确认的完成比例",
+      "unit": "比例",
+      "min": 0,
+      "max": 1,
+      "nullable": true
+    },
+    {
+      "name": "related_mastery",
+      "description": "经独立过程确认的当前知识点掌握度",
+      "unit": "比例",
+      "min": 0,
+      "max": 1,
+      "nullable": true
+    },
+    {
+      "name": "prerequisite_mastery",
+      "description": "经独立过程确认的前置知识掌握度",
+      "unit": "比例",
+      "min": 0,
+      "max": 1,
+      "nullable": true
+    },
+    {
+      "name": "active_time_ms",
+      "description": "有完整暂停/恢复或可用活动信号支持的有效时间",
+      "unit": "毫秒",
+      "min": 0,
+      "max": null,
+      "nullable": true
+    }
+  ],
+  "metadata_excluded_from_numeric_input": [
+    "learner_id",
+    "task_id",
+    "sample_id",
+    "provenance",
+    "target",
+    "source_relation_id",
+    "emotion_reference",
+    "future_events",
+    "expert_answer"
+  ],
+  "text_context": "Question text and synthetic self-reports are retained for review. A future numeric classifier must use the declared vector; any text encoder is a separate design decision."
+}
